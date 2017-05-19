@@ -79,13 +79,12 @@
 		769CC2B21ECE8D590084640E /* KingOfPop */ = {
 			isa = PBXGroup;
 			children = (
-				769CC2B31ECE8D590084640E /* AppDelegate.swift */,
-				769CC2B51ECE8D590084640E /* ViewController.swift */,
+				769CC2D91ECE8EFE0084640E /* Essentials */,
+				769CC2D81ECE8EF80084640E /* Model */,
+				769CC2D71ECE8EF50084640E /* View */,
+				769CC2D61ECE8EEF0084640E /* Controller */,
 				769CC2B71ECE8D590084640E /* Main.storyboard */,
-				769CC2BD1ECE8D590084640E /* Assets.xcassets */,
 				769CC2BF1ECE8D590084640E /* LaunchScreen.storyboard */,
-				769CC2C21ECE8D590084640E /* Info.plist */,
-				769CC2BA1ECE8D590084640E /* KingOfPop.xcdatamodeld */,
 			);
 			path = KingOfPop;
 			sourceTree = "<group>";
@@ -97,6 +96,39 @@
 				769CC2CD1ECE8D5A0084640E /* Info.plist */,
 			);
 			path = KingOfPopTests;
+			sourceTree = "<group>";
+		};
+		769CC2D61ECE8EEF0084640E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				769CC2B51ECE8D590084640E /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		769CC2D71ECE8EF50084640E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		769CC2D81ECE8EF80084640E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		769CC2D91ECE8EFE0084640E /* Essentials */ = {
+			isa = PBXGroup;
+			children = (
+				769CC2BA1ECE8D590084640E /* KingOfPop.xcdatamodeld */,
+				769CC2C21ECE8D590084640E /* Info.plist */,
+				769CC2BD1ECE8D590084640E /* Assets.xcassets */,
+				769CC2B31ECE8D590084640E /* AppDelegate.swift */,
+			);
+			name = Essentials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
