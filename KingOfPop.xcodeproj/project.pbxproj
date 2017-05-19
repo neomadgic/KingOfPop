@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		769CC2B41ECE8D590084640E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769CC2B31ECE8D590084640E /* AppDelegate.swift */; };
+		769CC2B61ECE8D590084640E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769CC2B51ECE8D590084640E /* ViewController.swift */; };
+		769CC2B91ECE8D590084640E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769CC2B71ECE8D590084640E /* Main.storyboard */; };
+		769CC2BC1ECE8D590084640E /* KingOfPop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 769CC2BA1ECE8D590084640E /* KingOfPop.xcdatamodeld */; };
+		769CC2BE1ECE8D590084640E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769CC2BD1ECE8D590084640E /* Assets.xcassets */; };
+		769CC2C11ECE8D590084640E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769CC2BF1ECE8D590084640E /* LaunchScreen.storyboard */; };
+		769CC2CC1ECE8D5A0084640E /* KingOfPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769CC2CB1ECE8D5A0084640E /* KingOfPopTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		769CC2C81ECE8D5A0084640E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 769CC2A81ECE8D590084640E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769CC2AF1ECE8D590084640E;
+			remoteInfo = KingOfPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		769CC2B01ECE8D590084640E /* KingOfPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingOfPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		769CC2B31ECE8D590084640E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		769CC2B51ECE8D590084640E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		769CC2B81ECE8D590084640E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		769CC2BB1ECE8D590084640E /* KingOfPop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KingOfPop.xcdatamodel; sourceTree = "<group>"; };
+		769CC2BD1ECE8D590084640E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		769CC2C01ECE8D590084640E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		769CC2C21ECE8D590084640E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769CC2C71ECE8D5A0084640E /* KingOfPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingOfPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		769CC2CB1ECE8D5A0084640E /* KingOfPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingOfPopTests.swift; sourceTree = "<group>"; };
+		769CC2CD1ECE8D5A0084640E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		769CC2AD1ECE8D590084640E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769CC2C41ECE8D5A0084640E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		769CC2A71ECE8D590084640E = {
+			isa = PBXGroup;
+			children = (
+				769CC2B21ECE8D590084640E /* KingOfPop */,
+				769CC2CA1ECE8D5A0084640E /* KingOfPopTests */,
+				769CC2B11ECE8D590084640E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		769CC2B11ECE8D590084640E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				769CC2B01ECE8D590084640E /* KingOfPop.app */,
+				769CC2C71ECE8D5A0084640E /* KingOfPopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		769CC2B21ECE8D590084640E /* KingOfPop */ = {
+			isa = PBXGroup;
+			children = (
+				769CC2B31ECE8D590084640E /* AppDelegate.swift */,
+				769CC2B51ECE8D590084640E /* ViewController.swift */,
+				769CC2B71ECE8D590084640E /* Main.storyboard */,
+				769CC2BD1ECE8D590084640E /* Assets.xcassets */,
+				769CC2BF1ECE8D590084640E /* LaunchScreen.storyboard */,
+				769CC2C21ECE8D590084640E /* Info.plist */,
+				769CC2BA1ECE8D590084640E /* KingOfPop.xcdatamodeld */,
+			);
+			path = KingOfPop;
+			sourceTree = "<group>";
+		};
+		769CC2CA1ECE8D5A0084640E /* KingOfPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				769CC2CB1ECE8D5A0084640E /* KingOfPopTests.swift */,
+				769CC2CD1ECE8D5A0084640E /* Info.plist */,
+			);
+			path = KingOfPopTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		769CC2AF1ECE8D590084640E /* KingOfPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769CC2D01ECE8D5A0084640E /* Build configuration list for PBXNativeTarget "KingOfPop" */;
+			buildPhases = (
+				769CC2AC1ECE8D590084640E /* Sources */,
+				769CC2AD1ECE8D590084640E /* Frameworks */,
+				769CC2AE1ECE8D590084640E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KingOfPop;
+			productName = KingOfPop;
+			productReference = 769CC2B01ECE8D590084640E /* KingOfPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		769CC2C61ECE8D5A0084640E /* KingOfPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769CC2D31ECE8D5A0084640E /* Build configuration list for PBXNativeTarget "KingOfPopTests" */;
+			buildPhases = (
+				769CC2C31ECE8D5A0084640E /* Sources */,
+				769CC2C41ECE8D5A0084640E /* Frameworks */,
+				769CC2C51ECE8D5A0084640E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769CC2C91ECE8D5A0084640E /* PBXTargetDependency */,
+			);
+			name = KingOfPopTests;
+			productName = KingOfPopTests;
+			productReference = 769CC2C71ECE8D5A0084640E /* KingOfPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		769CC2A81ECE8D590084640E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vu Dang";
+				TargetAttributes = {
+					769CC2AF1ECE8D590084640E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JYPLTFPFXY;
+						ProvisioningStyle = Automatic;
+					};
+					769CC2C61ECE8D5A0084640E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JYPLTFPFXY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 769CC2AF1ECE8D590084640E;
+					};
+				};
+			};
+			buildConfigurationList = 769CC2AB1ECE8D590084640E /* Build configuration list for PBXProject "KingOfPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 769CC2A71ECE8D590084640E;
+			productRefGroup = 769CC2B11ECE8D590084640E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				769CC2AF1ECE8D590084640E /* KingOfPop */,
+				769CC2C61ECE8D5A0084640E /* KingOfPopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		769CC2AE1ECE8D590084640E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769CC2C11ECE8D590084640E /* LaunchScreen.storyboard in Resources */,
+				769CC2BE1ECE8D590084640E /* Assets.xcassets in Resources */,
+				769CC2B91ECE8D590084640E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769CC2C51ECE8D5A0084640E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		769CC2AC1ECE8D590084640E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769CC2B61ECE8D590084640E /* ViewController.swift in Sources */,
+				769CC2BC1ECE8D590084640E /* KingOfPop.xcdatamodeld in Sources */,
+				769CC2B41ECE8D590084640E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769CC2C31ECE8D5A0084640E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769CC2CC1ECE8D5A0084640E /* KingOfPopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		769CC2C91ECE8D5A0084640E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769CC2AF1ECE8D590084640E /* KingOfPop */;
+			targetProxy = 769CC2C81ECE8D5A0084640E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		769CC2B71ECE8D590084640E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				769CC2B81ECE8D590084640E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		769CC2BF1ECE8D590084640E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				769CC2C01ECE8D590084640E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		769CC2CE1ECE8D5A0084640E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		769CC2CF1ECE8D5A0084640E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		769CC2D11ECE8D5A0084640E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JYPLTFPFXY;
+				INFOPLIST_FILE = KingOfPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neomadgic.KingOfPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		769CC2D21ECE8D5A0084640E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JYPLTFPFXY;
+				INFOPLIST_FILE = KingOfPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neomadgic.KingOfPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		769CC2D41ECE8D5A0084640E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JYPLTFPFXY;
+				INFOPLIST_FILE = KingOfPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neomadgic.KingOfPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingOfPop.app/KingOfPop";
+			};
+			name = Debug;
+		};
+		769CC2D51ECE8D5A0084640E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JYPLTFPFXY;
+				INFOPLIST_FILE = KingOfPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neomadgic.KingOfPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingOfPop.app/KingOfPop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		769CC2AB1ECE8D590084640E /* Build configuration list for PBXProject "KingOfPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769CC2CE1ECE8D5A0084640E /* Debug */,
+				769CC2CF1ECE8D5A0084640E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769CC2D01ECE8D5A0084640E /* Build configuration list for PBXNativeTarget "KingOfPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769CC2D11ECE8D5A0084640E /* Debug */,
+				769CC2D21ECE8D5A0084640E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		769CC2D31ECE8D5A0084640E /* Build configuration list for PBXNativeTarget "KingOfPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769CC2D41ECE8D5A0084640E /* Debug */,
+				769CC2D51ECE8D5A0084640E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		769CC2BA1ECE8D590084640E /* KingOfPop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				769CC2BB1ECE8D590084640E /* KingOfPop.xcdatamodel */,
+			);
+			currentVersion = 769CC2BB1ECE8D590084640E /* KingOfPop.xcdatamodel */;
+			path = KingOfPop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 769CC2A81ECE8D590084640E /* Project object */;
+}
